@@ -1,12 +1,14 @@
 body{
 background-image: url(https://i.makeagif.com/media/12-07-2023/0GzqF5.gif);
-                     /*papel de parede (//i.gifer.com/WBVk.gif)*/   
+                     /*papel de parede (//i.gifer.com/WBVk.gif)*/
+                     /*papel de parede do Ocastrin( https://i.makeagif.com/media/12-07-2023/0GzqF5.gif)*/
 text-align: center;
 
 }
 .text{
 
-color: white;
+color: rgb(210, 13, 230);
+text-shadow: 9px -6px 0.4em rgb(198, 122, 229);
 
 }
 
@@ -17,12 +19,12 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .foto{
     border-radius: 300px;
-    box-shadow: 10px -13px 2em white;
+    box-shadow: 2px -13px 2em white;
 }
 .borda{
     margin-left: 36%;
     width: 330px;
-    border: 3px solid blueviolet ;
+    border: 3px solid white ;
     border-radius: 300px;
 
 
@@ -31,4 +33,9 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkorchid;
+}
+.marquee{
+
+    color: white;
+    img { max-height: 200px;}
 }
